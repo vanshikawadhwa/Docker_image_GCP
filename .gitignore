@@ -1,0 +1,69 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+*.tar
+
+# =========================
+# GCP / App Engine
+# =========================
+.gcloudignore
+app-engine-log.txt
+
+# =========================
+# Cloud Build
+# =========================
+cloudbuild.local.yaml
+
+# =========================
+# Misc
+# =========================
+*.sqlite3
+*.db
